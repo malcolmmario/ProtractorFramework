@@ -11,7 +11,7 @@ describe('Demo Calculator tests',function(){
       homepage.clickGo();
       homepage.verifyResult('8');
 
-      browser.sleep(2000);
+      browser.sleep(3000);
     });
 
     it('Subtraction test', function(){
